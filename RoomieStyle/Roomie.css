@@ -627,3 +627,159 @@ ul{
 }
 
 /* end discover */
+/* start newsletter */
+.newsletter{
+    margin-top: 80px;
+    padding-top: 80px;
+    background-color: #F8F8F8;
+    height: 470px;
+    color: rgba(153, 140, 117, 0.7);
+}
+.newsletter .container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.newsletter .left{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.left .icon {
+    width: 130px;
+}
+
+.left .icon i {
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.left .icon span {
+    font-size: 20px;
+    font-weight: 800;
+    color: lightseagreen;
+}
+.newsletter .left .info{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    width: 346px;
+}
+.left button {
+    width: 280px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-top: 32px;
+    color: #fff;
+    background-color: var(--btn-color);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    line-height: 50px;
+}
+
+.left button:hover {
+    background-color: var(--main-color);
+    color: var(--btn-color);
+}
+
+.left button i {
+    font-size: 16px;
+    margin-left: 28px;
+}
+.newsletter .center{
+    flex: 1;
+}
+.newsletter .right{
+    flex: 1;
+}
+.newsletter .center{
+    padding-left: 75px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter .center .about h3,
+.newsletter .center .privacy h3{
+    color: #000;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.newsletter .center .about li,
+.newsletter .center .privacy li{
+    padding-bottom: 18px;
+}
+.newsletter .center .about li a,
+.newsletter .center .privacy li a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(153, 140, 117, 0.7);
+}
+.newsletter .right{
+    padding-top: 30px;
+    padding-left: 152px;
+}
+.newsletter .right h3{
+    color: #000;
+    margin-bottom: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.newsletter .right ul li{
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.newsletter .right .links i{
+    margin-top: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* start footer */
+.footer{
+    padding-top: 80px;
+    height:  142px;
+}
+.footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .content a{
+    line-height: 27px;
+    color: rgba(153, 140, 117, 0.7);
+}
+.footer .content ul{
+    display: flex;
+    line-height: 27px;
+}
+.footer ul li{
+    margin-left: 20px;
+}
+.footer li a{
+    color: rgba(153, 140, 117, 0.7);
+    font-size: 20px;
+}
+
+/* end footer */
+
+/* end newsletter */
